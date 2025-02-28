@@ -1,0 +1,26 @@
+setup.py
+VL2V_ADiP.egg-info/PKG-INFO
+VL2V_ADiP.egg-info/SOURCES.txt
+VL2V_ADiP.egg-info/dependency_links.txt
+VL2V_ADiP.egg-info/requires.txt
+VL2V_ADiP.egg-info/top_level.txt
+algorithms/__init__.py
+algorithms/algorithms.py
+algorithms/baselines.py
+algorithms/distill_clip.py
+algorithms/miro.py
+datasets/__init__.py
+datasets/datasets.py
+datasets/transforms.py
+networks/__init__.py
+networks/backbones.py
+networks/networks.py
+networks/ur_networks.py
+scripts/__init__.py
+scripts/collect_results.py
+scripts/download copy.py
+scripts/download.py
+scripts/list_top_hparams.py
+scripts/save_images.py
+scripts/sweep.py
+scripts/sweep_stage2.py

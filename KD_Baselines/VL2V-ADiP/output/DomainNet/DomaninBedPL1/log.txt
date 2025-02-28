@@ -1,0 +1,36 @@
+[37m[36mINFO[0m[0m 01/25 15:47:18 | 
+[37m[36mINFO[0m[0m 01/25 15:47:19 | Testenv name escaping te_painting -> te_painting
+[37m[36mINFO[0m[0m 01/25 15:47:19 | Test envs = [1], name = te_painting
+[37m[36mINFO[0m[0m 01/25 15:48:56 | 
+[37m[36mINFO[0m[0m 01/25 15:48:57 | Testenv name escaping te_painting -> te_painting
+[37m[36mINFO[0m[0m 01/25 15:48:57 | Test envs = [1], name = te_painting
+[37m[36mINFO[0m[0m 01/25 15:49:34 | 
+[37m[36mINFO[0m[0m 01/25 15:49:35 | Testenv name escaping te_painting -> te_painting
+[37m[36mINFO[0m[0m 01/25 15:49:35 | Test envs = [1], name = te_painting
+[37m[36mINFO[0m[0m 01/25 15:49:35 | Batch sizes for each domain: [32, 0, 32, 32] (total=96)
+[37m[36mINFO[0m[0m 01/25 15:49:35 | steps-per-epoch for each domain: 1220.84, 4312.50, 4383.19 -> min = 1220.84
+[37m[36mINFO[0m[0m 01/25 15:57:14 | 
+[37m[36mINFO[0m[0m 01/25 15:57:15 | Testenv name escaping te_painting -> te_painting
+[37m[36mINFO[0m[0m 01/25 15:57:15 | Test envs = [1], name = te_painting
+[37m[36mINFO[0m[0m 01/25 15:57:15 | Batch sizes for each domain: [32, 0, 32, 32] (total=96)
+[37m[36mINFO[0m[0m 01/25 15:57:15 | steps-per-epoch for each domain: 1220.84, 4312.50, 4383.19 -> min = 1220.84
+[37m[36mINFO[0m[0m 01/25 15:59:11 | 
+[37m[36mINFO[0m[0m 01/25 15:59:12 | Testenv name escaping te_painting -> te_painting
+[37m[36mINFO[0m[0m 01/25 15:59:12 | Test envs = [1], name = te_painting
+[37m[36mINFO[0m[0m 01/25 15:59:12 | Batch sizes for each domain: [32, 0, 32, 32] (total=96)
+[37m[36mINFO[0m[0m 01/25 15:59:12 | steps-per-epoch for each domain: 1220.84, 4312.50, 4383.19 -> min = 1220.84
+[37m[36mINFO[0m[0m 01/25 16:02:38 | 
+[37m[36mINFO[0m[0m 01/25 16:02:39 | Testenv name escaping te_painting -> te_painting
+[37m[36mINFO[0m[0m 01/25 16:02:39 | Test envs = [1], name = te_painting
+[37m[36mINFO[0m[0m 01/25 16:02:39 | Batch sizes for each domain: [32, 0, 32, 32] (total=96)
+[37m[36mINFO[0m[0m 01/25 16:02:39 | steps-per-epoch for each domain: 1220.84, 4312.50, 4383.19 -> min = 1220.84
+[37m[36mINFO[0m[0m 01/25 16:06:10 | 
+[37m[36mINFO[0m[0m 01/25 16:06:11 | Testenv name escaping te_painting -> te_painting
+[37m[36mINFO[0m[0m 01/25 16:06:11 | Test envs = [1], name = te_painting
+[37m[36mINFO[0m[0m 01/25 16:06:11 | Batch sizes for each domain: [32, 0, 32, 32] (total=96)
+[37m[36mINFO[0m[0m 01/25 16:06:11 | steps-per-epoch for each domain: 1220.84, 4312.50, 4383.19 -> min = 1220.84
+[37m[36mINFO[0m[0m 01/25 16:10:10 | 
+[37m[36mINFO[0m[0m 01/25 16:10:11 | Testenv name escaping te_painting -> te_painting
+[37m[36mINFO[0m[0m 01/25 16:10:11 | Test envs = [1], name = te_painting
+[37m[36mINFO[0m[0m 01/25 16:10:11 | Batch sizes for each domain: [32, 0, 32, 32] (total=96)
+[37m[36mINFO[0m[0m 01/25 16:10:11 | steps-per-epoch for each domain: 1220.84, 4312.50, 4383.19 -> min = 1220.84
