@@ -1,4 +1,4 @@
-# DIPT: Domain Invariant Prompt Tuning for Knowledge Distillation in Computational Pathology
+# All Centers Are at most a Few Tokens Apart: Knowledge Distillation with Domain Invariant Prompt Tuning 
 
 ## Overview
 
