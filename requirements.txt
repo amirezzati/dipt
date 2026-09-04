@@ -1,0 +1,17 @@
+# Core dependencies (tested with Python 3.10).
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.44.2
+timm==1.0.14
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.1
+pillow==10.3.0
+tqdm==4.67.1
+
+# Dataset download: Camelyon17-WILDS.
+wilds==2.0.0
+
+# Optional - only needed by scripts/prepare_kather_domains.py (stain augmentation).
+# staintools==2.1.2
+# spams==2.6.5.4

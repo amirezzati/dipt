@@ -1,0 +1,143 @@
+{
+  "_comment": [
+    "Prompt templates per class. Every template is encoded with the VLM text",
+    "encoder and the embeddings are averaged per class to form the class-generic",
+    "aggregated embedding E_i.",
+    "",
+    "E_i is used in three places:",
+    "  1. the frozen class-generic token inside every DIPT prompt (stage 1),",
+    "  2. the 'Agg. prompt Zero-Shot' baseline, and",
+    "  3. the text target of the original (non-DIPT) RISE distance loss.",
+    "",
+    "'templates' feeds the aggregated embedding; 'handcrafted' is the single",
+    "prompt per class used by the one-prompt zero-shot baseline and by the",
+    "original VL2V-ADiP head.",
+    "",
+    "camelyon17 templates are reproduced verbatim from the original",
+    "utils/avg_template_prompts.py (class_labels_dict). Note that entry 1 of",
+    "'normal' is a single string there: the original source omitted two commas,",
+    "so three intended prompts were concatenated by Python. It is kept as-is so",
+    "the aggregated embedding matches the published runs - split it into three",
+    "separate entries if you prefer the evident intent.",
+    "",
+    "kather19 has no counterpart in the original code; those templates are new."
+  ],
+  "camelyon17": {
+    "normal": [
+      "This is an image of a normal lymph node.",
+      "a patch of normal lymph node The Healthy lymph nodeA clear and normal lymph node.",
+      "The tissue appears healthy and normal.",
+      "This tissue belongs to a normal lymph node.",
+      "This is a non-cancerous lymph node.",
+      "The lymph node is free from cancer.",
+      "The lymph node is non-tumorous.",
+      "A completely normal lymph node.",
+      "A disease-free lymph node.",
+      "This image is of a cancer-free lymph node.",
+      "Normal lymph node.",
+      "Healthy tissue.",
+      "Healthy lymph node.",
+      "Normal tissue.",
+      "Clear lymph node.",
+      "Healthy and normal.",
+      "A benign lymph node.",
+      "Benign lymphoid cells.",
+      "Benign tissue patch.",
+      "Normal H&E-stained tissue section.",
+      "A tumor-negative patch.",
+      "A non-malignant patch."
+    ],
+    "tumor": [
+      "This image shows lymph node metastasis.",
+      "The lymph node is affected by cancer.",
+      "Metastasis is present in this lymph node.",
+      "Tumorous cells detected in the lymph node.",
+      "The lymph node contains metastatic tissue.",
+      "Abnormal tissue indicating metastasis.",
+      "Lymph node exhibiting signs of cancer spread.",
+      "A lymph node with cancerous cells present.",
+      "This lymph node is cancerous.",
+      "A metastatic lymph node with tumor cells.",
+      "Cancer has spread to this lymph node.",
+      "Tumor metastasis detected in the lymph node.",
+      "A histological image of lymph node metastasis.",
+      "Cancerous lymph node with metastatic cells.",
+      "Malignant lymph node.",
+      "This is a metastatic lymph node.",
+      "Lymph node metastasis.",
+      "Tumorous tissue.",
+      "Abnormal lymph node.",
+      "Cancer in lymph node.",
+      "Metastatic tissue.",
+      "Cancerous tissue.",
+      "A patch of metastatic breast cancer cells.",
+      "A tumor-positive lymph node tissue sample.",
+      "A metastatic lesion within a lymph node patch.",
+      "A patch of lymph node tissue with tumor microinvasion."
+    ]
+  },
+  "kather19": {
+    "ADI": [
+      "a patch of adipose tissue",
+      "a histopathology image of fat cells",
+      "adipocytes in colorectal tissue"
+    ],
+    "BACK": [
+      "a background patch with no tissue",
+      "an empty slide background",
+      "a blank histopathology background region"
+    ],
+    "DEB": [
+      "a patch of debris",
+      "a histopathology image of necrotic debris",
+      "cellular debris in colorectal tissue"
+    ],
+    "LYM": [
+      "a patch of lymphocytes",
+      "a histopathology image of a lymphocyte aggregate",
+      "dense lymphoid infiltrate"
+    ],
+    "MUC": [
+      "a patch of mucus",
+      "a histopathology image of mucin",
+      "extracellular mucin in colorectal tissue"
+    ],
+    "MUS": [
+      "a patch of smooth muscle",
+      "a histopathology image of smooth muscle tissue",
+      "muscularis propria in colorectal tissue"
+    ],
+    "NORM": [
+      "a patch of normal colon mucosa",
+      "a histopathology image of healthy colorectal mucosa",
+      "benign colonic glands"
+    ],
+    "STR": [
+      "a patch of cancer-associated stroma",
+      "a histopathology image of tumor stroma",
+      "desmoplastic stroma in colorectal cancer"
+    ],
+    "TUM": [
+      "a patch of colorectal adenocarcinoma epithelium",
+      "a histopathology image of colorectal tumor tissue",
+      "malignant colorectal cancer cells"
+    ]
+  },
+  "_handcrafted": {
+    "camelyon17": {
+      "normal": "a patch of normal tissue",
+      "tumor": "a patch of cancerous tissue"
+    },
+    "kather19": {
+      "ADI": "a photo of adipose tissue",
+      "BACK": "a photo of slide background",
+      "DEB": "a photo of debris",
+      "LYM": "a photo of lymphocytes",
+      "MUC": "a photo of mucus",
+      "MUS": "a photo of smooth muscle",
+      "NORM": "a photo of normal colon mucosa",
+      "STR": "a photo of cancer-associated stroma",
+      "TUM": "a photo of colorectal adenocarcinoma epithelium"
+    }
+  }
+}
